@@ -106,7 +106,7 @@ h6 {
 }
 
 .navbar {
-  position: absolute!important;
+  position: absolute !important;
   width: 100%;
   z-index: 2;
 }
@@ -119,18 +119,18 @@ h6 {
   margin-left: auto;
 }
 
-.nav-link{
+.nav-link {
   font-weight: 500;
   margin: 0 10px;
-  color:var(--color-light2)!important;
+  color: var(--color-light2) !important;
 }
 
-.nav-link:hover{
-  color:var(--color-light)!important;
+.nav-link:hover {
+  color: var(--color-light) !important;
 }
 
 .navbar-toggler {
-  border-color: #fff!important;
+  border-color: #fff !important;
 }
 
 .navbar-toggler-icon {
@@ -142,9 +142,52 @@ h6 {
 }
 
 .fixed {
-  position: fixed!important;
+  position: fixed !important;
   top: 0;
   width: 100%;
-  background-color:var(--color-dark);
+  background-color: var(--color-dark);
   z-index: 4;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner 
+.owl-theme 
+.item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-bg {
+  background-color: var(--color-dark);
+  opacity: .6;
+  z-index: 2;
+}
+
+.item .container {
+  position: relative;
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 3;
+  text-align: center;
+}
+
+.caption-heading {
+  font-size: 3em;
+  font-weight: 700;
+  padding: 0;
+  color: var(--color-light2);
+  line-height: 1;
+  margin: 10px 0 30px;
+  text-shadow: 0 0 15px #2b2b2b;
 }
