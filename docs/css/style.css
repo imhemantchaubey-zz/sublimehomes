@@ -191,3 +191,28 @@ h6 {
   margin: 10px 0 30px;
   text-shadow: 0 0 15px #2b2b2b;
 }
+
+.custom-nav {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  height: auto;
+  z-index: 3;
+}
+.owl-prev, .owl-next {
+  position: absolute;
+  height: 100px;
+  color: var(--color-light2);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 8px;
+  font-size: 3em;
+}
+.owl-prev {
+  left: 3%;
+}
+.owl-next {
+  right: 3%;
+}
