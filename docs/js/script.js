@@ -13,7 +13,13 @@ $(document).ready(function(){
 	    navContainer: '.banner .custom-nav',
 	    items: 1,
 	});
-  
+
+	$(".carousel-testimonials").owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		items: 1
+	});
 });
 
 window.onscroll = function() {toggleMenu()};
