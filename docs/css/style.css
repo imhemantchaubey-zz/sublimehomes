@@ -441,3 +441,52 @@ h6 {
 .testimonial-content h5 {
   font-size: 0.9em;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar {
+    background-color: var(--color-dark);
+  }
+
+  .caption {
+    padding: 0 40px;
+  }
+
+  .caption-heading {
+    font-size: 2em;
+    line-height: 1.4em;
+  }
+
+  .section-title {
+    font-size: 1.6em;
+  }
+
+  .testimonial {
+    max-width: 100%;
+  }
+
+  .testimonial-content p {
+    font-size: 0.8em;
+  }
+  
+  .testimonial-content h4 {
+    font-weight: 500;
+    font-size: 0.8em;
+  }
+
+  .testimonial-content h5 {
+    font-size: 0.7em;
+  }
+
+  .contact-form {
+    max-width: initial;
+  }
+
+  .contact-desc p {
+    font-size: 1em;
+  }
+
+  .foot-bottom-text,
+  .footer .content-right {
+    text-align: center;
+  }
+}
